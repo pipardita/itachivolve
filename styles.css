@@ -563,19 +563,17 @@ body {
         width: 150px;
         height: 150px;
     }
-.tag-aespa {
-    background: #ff4fa3;
-    color: white;
-    font-weight: bold;
-    box-shadow: 0 0 10px #ff4fa3;
+
+    .tags .tag.tag-aespa {
+    background: #ff4fa3 !important;
+    color: white !important;
+    font-weight: bold !important;
+    box-shadow: 0 0 15px #ff4fa3 !important;
 }
 
-.tag-seventeen {
-    background: #6aaeff;
-    color: white;
-    font-weight: bold;
-    box-shadow: 0 0 10px #6aaeff;
-
-}
-
+.tags .tag.tag-seventeen {
+    background: #6aaeff !important;
+    color: white !important;
+    font-weight: bold !important;
+    box-shadow: 0 0 15px #6aaeff !important;
 }
