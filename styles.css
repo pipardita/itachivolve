@@ -563,4 +563,16 @@ body {
         width: 150px;
         height: 150px;
     }
+}.tag-aespa {
+    background: #ff4fa3;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 10px #ff4fa3;
+}
+
+.tag-seventeen {
+    background: #6aaeff;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 10px #6aaeff;
 }
