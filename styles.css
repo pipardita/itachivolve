@@ -345,10 +345,12 @@ body {
     color: #b8d4ff;
 }
 
+/* TAGS DESTACADOS (bias principal) */
 .tag.tag-aespa {
     background: rgba(180, 0, 110, 0.28);
     border: 1px solid rgba(220, 50, 160, 0.55);
     color: #f0a0d8;
+    font-weight: 700;
     box-shadow: 0 0 8px rgba(200, 0, 140, 0.25);
 }
 
@@ -364,6 +366,7 @@ body {
     background: rgba(0, 160, 140, 0.22);
     border: 1px solid rgba(0, 210, 185, 0.5);
     color: #80f0e0;
+    font-weight: 700;
     box-shadow: 0 0 8px rgba(0, 190, 165, 0.22);
 }
 
@@ -371,6 +374,22 @@ body {
     background: rgba(0, 160, 140, 0.4);
     border-color: rgba(3, 168, 149, 0.8);
     box-shadow: 0 0 16px rgba(0, 190, 165, 0.45);
+    transform: translateY(-2px);
+}
+
+/* TAG JENNIE - dorado vibrante para que resalte entre los demás */
+.tag.tag-jennie {
+    background: rgba(255, 179, 0, 0.25);
+    border: 1px solid rgba(255, 200, 40, 0.65);
+    color: #ffd966;
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(255, 180, 0, 0.35);
+}
+
+.tag.tag-jennie:hover {
+    background: rgba(255, 179, 0, 0.42);
+    border-color: rgba(255, 200, 40, 0.9);
+    box-shadow: 0 0 18px rgba(255, 180, 0, 0.6);
     transform: translateY(-2px);
 }
 
